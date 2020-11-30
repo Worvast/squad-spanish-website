@@ -6,7 +6,6 @@ import About from './components/About';
 import Squads from './components/Squads';
 import News from './components/News';
 import Servers from './components/Servers';
-import Contact from './components/Contact';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
 
