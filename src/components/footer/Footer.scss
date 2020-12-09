@@ -1,0 +1,12 @@
+.footer__container {
+  height: 300px;
+  background: #1d1d1d url('../../images/footer.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .section {
+    width: 100%;
+    color: #ffc40b;
+  }
+}

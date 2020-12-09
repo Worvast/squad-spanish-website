@@ -1,0 +1,26 @@
+.header__container {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #000000;
+  border-bottom: 3px solid #838383;
+  z-index: 2;
+  .logo__container {
+    background: url('../../images/logo.png');
+  }
+  .header__navbar {
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      &:hover {
+        color: #ffc40b;
+      }
+    }
+  }
+}
