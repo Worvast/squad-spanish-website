@@ -1,17 +1,21 @@
 .header__container {
   height: 50px;
   width: 100%;
+  display: flex;
   position: fixed;
   top: 0;
   background-color: #000000;
   border-bottom: 3px solid #838383;
   z-index: 2;
   .logo__container {
-    background: url('../../images/logo.png');
+    width: 30%;
+    margin: 6px 5px 5px 40px;
+    background: url('../../images/logo.png') no-repeat;
+    background-size: 21%;
   }
   .header__navbar {
-    width: 50%;
-    margin-left: 50%;
+    width: 70%;
+    margin: 16px 0px;
     display: flex;
     justify-content: space-evenly;
     a {

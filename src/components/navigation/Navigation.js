@@ -5,8 +5,9 @@ import './Navigation.scss';
 const Navigation = () => {
     return (
       <div className="header__container">
-        <div className="logo__container"></div>
-        <img src="../../images/logo.png" alt="Squad"></img>
+        <div className="logo__container">
+          <NavLink to="/"></NavLink>
+        </div>
         <div className="header__navbar">
           <NavLink to="/">Inicio</NavLink>
           <NavLink to="/news">Noticias</NavLink>

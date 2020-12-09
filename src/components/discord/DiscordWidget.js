@@ -34,7 +34,7 @@ class DiscordWidget extends React.Component {
                     <div className="discordData">
                         <div className="serverImg discordLink">
                             <img className="serverImg"
-                                 src={imgUrl}/>
+                                src={imgUrl}/>
                         </div>
                         <div className="discordInfo">
                             <div className="serverNameBox discordLink">

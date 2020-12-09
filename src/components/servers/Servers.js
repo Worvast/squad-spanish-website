@@ -2,10 +2,12 @@ import React from 'react';
 
 const Servers = () => {
     return (
-       <div>
+      <div className="servers__container">
+        <div className="section">
           <h1>Servers</h1>
           <p>Servers</p>
-       </div>
+        </div>
+      </div>
     );
 }
 

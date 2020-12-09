@@ -1,15 +1,16 @@
 import React from 'react';
 import { squadsInfo } from "../../data/squads";
 import DiscordWidget from "./../discord/DiscordWidget";
+import './Squads.scss';
 
 class Squads extends React.Component {
   render() {
     return (
       <>
-        <div>
+        <div className="squads__container">
           <h1>Squads</h1>
         </div>
-        <div className="squad-container">
+        <div className="squad-container section">
           {squadsInfo.map((data, key) => {
             return (
               <>
